@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDial"
+        android:text="전화걸기"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEnd"
+        android:text="끝내기"/>
+
+    <Button
+        android:id="@+id/rotationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FDBE9C"
+        android:layout_marginTop="30dp"
+        android:text="회전하기"
+        android:textColor="#353535" />
+
+    <ImageView
+        android:id="@+id/rotationImg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/monkey" />
+
+    <EditText
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/editText"/>
+
+    <Button
+        android:id="@+id/serviceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FDBE9C"
+        android:text="서비스로 보내기"
+        android:textColor="#353535"/>
+    <!--    <Button-->
+<!--        android:id="@+id/changeBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:backgroundTint="#FDBE9C"-->
+<!--        android:textColor="#353535"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Service Life Cycle"-->
+<!--        tools:ignore="HardcodedText" />-->
+
+</LinearLayout>
